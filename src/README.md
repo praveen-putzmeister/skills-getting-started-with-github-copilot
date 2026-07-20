@@ -48,3 +48,13 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Backend Tests
+
+Backend API tests live in the top-level `tests` directory and follow the Arrange-Act-Assert (AAA) pattern.
+
+Run the test suite from the repository root:
+
+```
+pytest
+```
